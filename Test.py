@@ -17,11 +17,17 @@ print(paragraph)
 
 x = "a"
 y = "b"
-#输出换行
-print (x)
-print (y)
-#不换行输出
-print(x),print(y)
-#不换行输出
+# 输出换行
+print(x)
+print(y)
+
+print('----------')
+# 不换行输出--2.X版本
 print(x),
 print(y),
+# 第二种不换行输出--2.X版本
+print(x),print(y)
+# 不换行输出--3.X版本
+print(x,end="")
+print(y,end="")
+print()

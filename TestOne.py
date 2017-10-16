@@ -75,7 +75,7 @@ print(list[2:])
 print(tinylist)
 print(tinylist * 2)
 print(list + tinylist)
-# 3.x中的标准数据类型之List元组
+# 3.x中的标准数据类型之Tuple元组
 tuple = ('abcd', 1234, 'darren573', 22.3)
 tinytuple = (678, '菜鸡的学习')
 print(tuple)
